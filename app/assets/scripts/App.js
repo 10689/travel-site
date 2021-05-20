@@ -1,1 +1,5 @@
-alert("hello from app.js")
+import '../styles/styles.css'
+
+if (module.hot) {
+  module.hot.accept()
+}
