@@ -1,0 +1,26 @@
+.row-container{
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-gap: 20PX;
+  &--row-4{
+    display: grid;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  &--small{
+
+    @mixin atSmall {
+      grid-template-columns: 3fr 3fr;
+    }
+    
+  }
+  
+  &--row-8{
+    margin-top:0px;
+  }
+ 
+
+}
